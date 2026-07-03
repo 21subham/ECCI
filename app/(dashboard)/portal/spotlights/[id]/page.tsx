@@ -37,7 +37,7 @@ export default function SpotlightDetailPage({ params }: { params: { id: string }
                 <span className="rounded-full bg-crimson/80 px-3 py-1 text-xs font-semibold text-white">Member</span>
               </div>
               <h1 className="mt-3 font-heading text-2xl text-white md:text-3xl">{spotlight.name}</h1>
-              <p className="mt-1 text-sm text-white/60">{spotlight.role}</p>
+              <p className="mt-1 text-sm text-gray-300">{spotlight.role}</p>
             </div>
           </div>
         </div>

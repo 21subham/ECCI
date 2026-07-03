@@ -29,22 +29,22 @@ export default function CertificatePage() {
                 <span className="font-heading text-2xl font-bold text-white">E</span>
               </div>
               <h3 className="font-heading text-xl text-white">Membership Certificate</h3>
-              <p className="mt-2 text-sm text-white/60">This certifies that</p>
+              <p className="mt-2 text-sm text-gray-300">This certifies that</p>
               <p className="mt-1 font-heading text-2xl text-white">Yubraj Baral</p>
-              <p className="mt-1 text-sm text-white/60">is a recognized member of</p>
+              <p className="mt-1 text-sm text-gray-300">is a recognized member of</p>
               <p className="mt-1 font-heading text-lg text-crimson-light">Everest Chamber of Commerce and Industries</p>
               <div className="mx-auto mt-6 h-px w-48 bg-white/20" />
               <div className="mt-6 grid grid-cols-3 gap-4 text-xs">
                 <div>
-                  <div className="text-white/50">Member No.</div>
+                  <div className="text-gray-400">Member No.</div>
                   <div className="mt-1 font-semibold text-white">ECCI-2024-0482</div>
                 </div>
                 <div>
-                  <div className="text-white/50">Issued On</div>
+                  <div className="text-gray-400">Issued On</div>
                   <div className="mt-1 font-semibold text-white">Jan 15, 2024</div>
                 </div>
                 <div>
-                  <div className="text-white/50">Valid Until</div>
+                  <div className="text-gray-400">Valid Until</div>
                   <div className="mt-1 font-semibold text-white">Jan 15, 2025</div>
                 </div>
               </div>

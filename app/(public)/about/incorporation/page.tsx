@@ -109,9 +109,9 @@ export default function IncorporationPage() {
       <section className="relative py-24 text-white" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1400&q=80')", backgroundSize: "cover", backgroundPosition: "50% 50%" }}>
         <div className="absolute inset-0 bg-navy/70" />
         <div className="relative z-10 mx-auto max-w-[1200px] px-6">
-          <span className="mb-4 block text-sm font-bold uppercase tracking-[0.15em] text-white/60">Legal &amp; Compliance</span>
+          <span className="mb-4 block text-sm font-bold uppercase tracking-[0.15em] text-gray-300">Legal &amp; Compliance</span>
           <h1 className="font-heading text-4xl text-white md:text-5xl">Incorporation Documents</h1>
-          <p className="mt-4 max-w-xl text-lg text-white/70">
+          <p className="mt-4 max-w-xl text-lg text-gray-300">
             Official registration and tax documents of Everest Chamber of Commerce and Industries (ECCI). These documents certify our legal status as a registered chamber of commerce in India.
           </p>
         </div>

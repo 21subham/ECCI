@@ -100,21 +100,21 @@ export default function SpotlightsPage() {
                 Featured Member
               </span>
               <h3 className="font-heading text-3xl text-white mb-1">Anjali Sharma</h3>
-              <p className="mb-3 text-base font-medium text-white/60">Managing Director, Himalaya Exports Pvt. Ltd.</p>
-              <p className="mb-4 max-w-600 text-sm text-white/70" style={{ lineHeight: 1.7 }}>
+              <p className="mb-3 text-base font-medium text-gray-300">Managing Director, Himalaya Exports Pvt. Ltd.</p>
+              <p className="mb-4 max-w-600 text-sm text-gray-300" style={{ lineHeight: 1.7 }}>
                 A trailblazer in cross-border trade, Anjali has transformed Himalaya Exports from a small trading house into a premier export enterprise spanning textiles, organics, and handicrafts across 14 countries over two decades.
               </p>
               <div className="mb-5 flex gap-6">
                 <div>
-                  <div className="mb-1 text-[10px] uppercase tracking-[0.1em] text-white/50">Industry</div>
+                  <div className="mb-1 text-[10px] uppercase tracking-[0.1em] text-gray-400">Industry</div>
                   <div className="text-sm font-semibold text-white">Export &amp; Trade</div>
                 </div>
                 <div>
-                  <div className="mb-1 text-[10px] uppercase tracking-[0.1em] text-white/50">Member Since</div>
+                  <div className="mb-1 text-[10px] uppercase tracking-[0.1em] text-gray-400">Member Since</div>
                   <div className="text-sm font-semibold text-white">2021</div>
                 </div>
                 <div>
-                  <div className="mb-1 text-[10px] uppercase tracking-[0.1em] text-white/50">Location</div>
+                  <div className="mb-1 text-[10px] uppercase tracking-[0.1em] text-gray-400">Location</div>
                   <div className="text-sm font-semibold text-white">Delhi, India</div>
                 </div>
               </div>

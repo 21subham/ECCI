@@ -215,13 +215,13 @@ export default function MembershipPage() {
         <div className="absolute inset-0 bg-[url('https://everestchamber.com/wp-content/uploads/2025/01/Seminar5.jpg')] bg-cover bg-center" />
         <div className="absolute inset-0 bg-navy/70" />
         <div className="relative z-10 mx-auto max-w-[800px] px-6 py-24 text-center">
-          <span className="mb-4 block text-xs font-bold uppercase tracking-[0.15em] text-white/60">
+          <span className="mb-4 block text-xs font-bold uppercase tracking-[0.15em] text-gray-300">
             Membership
           </span>
           <h1 className="mb-6 font-heading text-4xl text-white md:text-5xl lg:text-[3.75rem]">
             Membership Plans
           </h1>
-          <p className="mx-auto max-w-[600px] text-lg leading-relaxed text-white/70">
+          <p className="mx-auto max-w-[600px] text-lg leading-relaxed text-gray-300">
             Joining ECCI means becoming part of a global network that supports and promotes businesses. Whether you are a startup, SME, or an established enterprise, our platform offers you the tools to expand, innovate, and succeed.
           </p>
         </div>
