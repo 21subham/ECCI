@@ -53,7 +53,7 @@ export default function AdvisoryBoardPage() {
         { label: "Advisory Board" }
       ]} />
 
-      <section className="relative flex min-h-[400px] items-center justify-center overflow-hidden bg-gradient-to-br from-navy via-[#0D1B2E] to-[#162D4A] py-20 text-center text-white">
+      <section className="relative flex min-h-[400px] items-center justify-center overflow-hidden bg-gradient-to-br from-navy via-navy-dark to-navy-deep-dark py-20 text-center text-white">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_80%_20%,rgba(80,125,154,0.15)_0%,transparent_60%),radial-gradient(ellipse_at_20%_80%,rgba(158,11,25,0.08)_0%,transparent_50%)]" />
         <div className="relative z-10 mx-auto max-w-[800px] px-6">
           <h1 className="mb-4 font-heading text-4xl text-white md:text-5xl">
@@ -97,7 +97,7 @@ export default function AdvisoryBoardPage() {
         </div>
       </section>
 
-      <section className="relative overflow-hidden bg-gradient-to-br from-crimson to-[#7A0914] py-20 text-center text-white">
+      <section className="relative overflow-hidden bg-gradient-to-br from-crimson to-crimson-dark py-20 text-center text-white">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.1)_0%,transparent_50%)]" />
         <div className="relative z-10 mx-auto max-w-[1200px] px-6">
           <h2 className="mb-4 font-heading text-3xl text-white">Join Our Advisory Board</h2>

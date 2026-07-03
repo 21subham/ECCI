@@ -25,7 +25,7 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="relative overflow-hidden bg-navy pb-12 pt-[120px] text-white lg:pt-[132px]">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=400&fit=crop')] bg-cover bg-center" />
-        <div className="absolute inset-0 bg-gradient-to-br from-navy/88 to-[#0D1B2E]/92" />
+        <div className="absolute inset-0 bg-gradient-to-br from-navy/88 to-navy-dark/92" />
         <div className="relative z-10 mx-auto max-w-[1200px] px-6">
           <div className="mb-6">
             <div className="flex items-center gap-2 text-sm text-gray-300">

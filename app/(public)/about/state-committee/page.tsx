@@ -109,7 +109,7 @@ export default function StateCommitteePage() {
         { label: "State Committee" }
       ]} />
 
-      <section className="relative flex min-h-[400px] items-center justify-center overflow-hidden bg-gradient-to-br from-navy via-[#0D1B2E] to-[#162D4A] py-20 text-center text-white">
+      <section className="relative flex min-h-[400px] items-center justify-center overflow-hidden bg-gradient-to-br from-navy via-navy-dark to-navy-deep-dark py-20 text-center text-white">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_80%_20%,rgba(80,125,154,0.15)_0%,transparent_60%),radial-gradient(ellipse_at_20%_80%,rgba(158,11,25,0.08)_0%,transparent_50%)]" />
         <div className="relative z-10 mx-auto max-w-[800px] px-6">
           <h1 className="mb-4 font-heading text-4xl text-white md:text-5xl">
@@ -149,7 +149,7 @@ function StateCard({ state }: { state: StateData }) {
 
   return (
     <div className={`rounded-xl border border-border-gray bg-white transition-all hover:shadow-lg`}>
-      <div className="flex items-center justify-between rounded-t-xl bg-gradient-to-br from-navy to-[#1A3355] px-6 py-4">
+      <div className="flex items-center justify-between rounded-t-xl bg-gradient-to-br from-navy to-navy-light px-6 py-4">
         <div className="font-heading text-lg text-white">{state.name}</div>
         <button
           onClick={() => setExpanded(!expanded)}

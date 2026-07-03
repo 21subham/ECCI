@@ -99,13 +99,13 @@ export default function LoginPage() {
             <div>
               <div className="mb-6 text-center">
                 <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-ice-tint">
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#507D9A"
-                    strokeWidth="2"
-                    className="h-7 w-7"
-                  >
+<svg
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="var(--color-ice-blue)"
+                     strokeWidth="2"
+                     className="h-7 w-7"
+                 >
                     <rect x="2" y="3" width="20" height="14" rx="2" />
                     <line x1="8" y1="21" x2="16" y2="21" />
                     <line x1="12" y1="17" x2="12" y2="21" />

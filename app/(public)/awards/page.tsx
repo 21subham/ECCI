@@ -24,7 +24,7 @@ export default function AwardsPage() {
 
   return (
     <PublicLayout activeNav="about">
-      <div className="relative overflow-hidden bg-gradient-to-br from-navy via-[#0D1B2E] to-[#162D4A] pt-[88px] pb-20 text-center text-white lg:pt-[100px]">
+      <div className="relative overflow-hidden bg-gradient-to-br from-navy via-navy-dark to-navy-deep-dark pt-[88px] pb-20 text-center text-white lg:pt-[100px]">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_80%_20%,rgba(80,125,154,0.15)_0%,transparent_60%),radial-gradient(ellipse_at_20%_80%,rgba(158,11,25,0.08)_0%,transparent_50%)]" />
         <div className="relative z-10 mx-auto max-w-[1200px] px-6">
           <div className="mb-4 flex items-center justify-center gap-2 text-sm text-gray-300">

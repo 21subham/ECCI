@@ -118,7 +118,7 @@ export default function LeadershipPage() {
       </div>
 
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-navy via-[#0D1B2E] to-[#162D4A] py-20 text-center text-white lg:py-24">
+      <section className="relative overflow-hidden bg-gradient-to-br from-navy via-navy-dark to-navy-deep-dark py-20 text-center text-white lg:py-24">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_80%_20%,rgba(80,125,154,0.15)_0%,transparent_60%),radial-gradient(ellipse_at_20%_80%,rgba(158,11,25,0.08)_0%,transparent_50%)]" />
         <div className="relative z-10 mx-auto max-w-[1200px] px-6">
           <Reveal animation="fade-in">

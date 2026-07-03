@@ -9,7 +9,7 @@ export default function DashboardPage() {
         <div>
           <h2 className="mb-2 text-2xl text-navy">Welcome back, Yubraj</h2>
           <p className="text-sm text-gray-500">
-            <span className="rounded-full bg-[#C6F6D5] px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-[#22543D]">
+            <span className="rounded-full bg-success-bg px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-success-text">
               Corporate Member
             </span>{" "}
             Active
@@ -159,7 +159,7 @@ export default function DashboardPage() {
                 <div className="mb-1 text-xs uppercase tracking-wide text-gray-500">
                   Status
                 </div>
-                <span className="rounded-full bg-[#C6F6D5] px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-[#22543D]">
+<span className="rounded-full bg-success-bg px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-success-text">
                   Active
                 </span>
               </div>

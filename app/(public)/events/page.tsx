@@ -60,7 +60,7 @@ const events = [
 export default function EventsPage() {
   return (
     <PublicLayout activeNav="events">
-      <section className="relative flex min-h-[600px] items-center justify-center overflow-hidden pt-[72px]" style={{ background: "linear-gradient(135deg, #11233B 0%, #0d1f36 50%, #1a2d45 100%)" }}>
+      <section className="relative flex min-h-[600px] items-center justify-center overflow-hidden pt-[72px]" style={{ background: "linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-dark) 50%, var(--color-navy-light) 100%)" }}>
         <div className="absolute inset-0 bg-[url('https://everestchamber.com/wp-content/uploads/2025/01/Seminar5.jpg')] bg-cover bg-center opacity-12" />
         <div className="relative z-10 mx-auto max-w-[800px] px-6 py-24 text-center">
           <span className="mb-4 block text-xs font-bold uppercase tracking-[0.15em] text-crimson-light">

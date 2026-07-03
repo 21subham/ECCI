@@ -97,7 +97,7 @@ export default function PartnersPage() {
       <section className="bg-white py-16">
         <div className="mx-auto max-w-[1200px] px-6">
           <div className="mb-12 text-center">
-            <span className="mb-3 inline-block rounded-full bg-gradient-to-br from-[#E5E7EB] to-[#D1D5DB] px-4 py-1 text-xs font-bold uppercase tracking-wider text-navy">
+            <span className="mb-3 inline-block rounded-full bg-gray-100 px-4 py-1 text-xs font-bold uppercase tracking-wider text-navy">
               Platinum
             </span>
             <h2 className="mb-2 font-heading text-2xl text-navy">Platinum Partners</h2>
@@ -137,7 +137,7 @@ export default function PartnersPage() {
       <section className="bg-gray-50 py-16">
         <div className="mx-auto max-w-[1200px] px-6">
           <div className="mb-12 text-center">
-            <span className="mb-3 inline-block rounded-full bg-gradient-to-br from-[#FDE68A] to-[#F59E0B] px-4 py-1 text-xs font-bold uppercase tracking-wider text-navy">
+            <span className="mb-3 inline-block rounded-full bg-warning-bg px-4 py-1 text-xs font-bold uppercase tracking-wider text-navy">
               Gold
             </span>
             <h2 className="mb-2 font-heading text-2xl text-navy">Gold Partners</h2>
@@ -177,7 +177,7 @@ export default function PartnersPage() {
       <section className="bg-white py-16">
         <div className="mx-auto max-w-[800px] px-6">
           <div className="mb-12 text-center">
-            <span className="mb-3 inline-block rounded-full bg-gradient-to-br from-[#CBD5E1] to-[#94A3B8] px-4 py-1 text-xs font-bold uppercase tracking-wider text-navy">
+            <span className="mb-3 inline-block rounded-full bg-gray-200 px-4 py-1 text-xs font-bold uppercase tracking-wider text-navy">
               Silver
             </span>
             <h2 className="mb-2 font-heading text-2xl text-navy">Silver Partners</h2>

@@ -18,7 +18,7 @@ const directoryListings = [
 export default function DirectoryPage() {
   return (
     <PublicLayout activeNav="directory">
-      <section className="bg-gradient-to-br from-navy to-[#0d1f36] text-white py-16">
+      <section className="bg-gradient-to-br from-navy to-navy-dark text-white py-16">
         <div className="mx-auto max-w-[1200px] px-6">
           <Reveal animation="fade-in">
             <span className="mb-3 block text-xs font-bold uppercase tracking-[0.15em] text-gray-400">Find Businesses</span>
@@ -117,7 +117,7 @@ export default function DirectoryPage() {
                     </p>
                     <div className="mb-4 flex flex-wrap gap-2">
                       <span className="inline-block rounded-full bg-ice-tint px-2.5 py-0.5 text-[11px] font-semibold text-ice-blue">{listing.industry}</span>
-                      <span className={`inline-block rounded-full px-2.5 py-0.5 text-[11px] font-semibold ${listing.tier === "Patron" ? "bg-navy text-white" : "bg-[#FEFCBF] text-[#744210]"}`}>{listing.tier}</span>
+                      <span className={`inline-block rounded-full px-2.5 py-0.5 text-[11px] font-semibold ${listing.tier === "Patron" ? "bg-navy text-white" : "bg-warning-bg text-warning-text"}`}>{listing.tier}</span>
                     </div>
                     <Link href="/directory/sample-business" className="btn btn--outline btn--sm">View Profile</Link>
                   </div>

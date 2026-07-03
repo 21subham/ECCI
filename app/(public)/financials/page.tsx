@@ -52,7 +52,7 @@ export default function FinancialsPage() {
                   <div className="mb-6 flex items-center justify-between">
                     <div>
                       <h3 className="font-heading text-xl text-navy">FY {fy.fy}</h3>
-                      <span className={`mt-1 inline-block rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wider ${fy.status === "Published" ? "bg-[#C6F6D5] text-[#22543D]" : "bg-yellow-100 text-yellow-800"}`}>{fy.status}</span>
+                      <span className={`mt-1 inline-block rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wider ${fy.status === "Published" ? "bg-success-bg text-success-text" : "bg-warning-bg text-warning-text"}`}>{fy.status}</span>
                     </div>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-8 w-8 text-crimson"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
                   </div>

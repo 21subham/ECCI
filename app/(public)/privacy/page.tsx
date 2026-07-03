@@ -19,7 +19,7 @@ const sections = [
 export default function PrivacyPage() {
   return (
     <PublicLayout activeNav="contact">
-      <section className="relative overflow-hidden bg-gradient-to-br from-navy via-[#0D1B2E] to-[#162D4A] pb-12 pt-[88px] text-white lg:pt-[100px]">
+      <section className="relative overflow-hidden bg-gradient-to-br from-navy via-navy-dark to-navy-deep-dark pb-12 pt-[88px] text-white lg:pt-[100px]">
         <div className="relative z-10 mx-auto max-w-[1200px] px-6">
           <div className="mb-4 flex items-center gap-2 text-sm text-gray-300">
             <Link href="/" className="text-crimson transition-colors hover:text-crimson-light">Home</Link>

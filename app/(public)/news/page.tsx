@@ -8,9 +8,9 @@ import { SectionHeader } from "../../components/SectionHeader";
 
 const articles = [
   { slug: "ecci-signs-mou-with-ficci", category: "Partnership", title: "ECCI Signs MOU with FICCI", date: "Jul 10, 2024", readTime: "5 min read", author: "ECCI Admin", badge: "bg-ice-tint text-ice-blue", desc: "A landmark memorandum of understanding signed between ECCI and FICCI to strengthen bilateral trade relations and create new pathways for business collaboration between India and Nepal." },
-  { slug: "nepal-festival-2025-records", category: "Event", title: "Nepal Festival 2025 Breaks Attendance Records", date: "Feb 25, 2025", readTime: "4 min read", author: "Priya Sharma", badge: "bg-[#C6F6D5] text-[#22543D]", desc: "The annual Nepal Festival drew record footfall with over 15,000 visitors, showcasing Nepal's rich cultural heritage and fostering trade opportunities among participating businesses." },
-  { slug: "trade-corridor-initiative", category: "Trade", title: "New Trade Corridor Initiative Launched", date: "Nov 15, 2024", readTime: "6 min read", author: "Rajesh Khanna", badge: "bg-yellow-100 text-yellow-800", desc: "ECCI unveils a strategic India-Nepal trade corridor initiative aimed at streamlining cross-border commerce, reducing transit times, and boosting bilateral trade volume significantly." },
-  { slug: "quarterly-business-forum", category: "Networking", title: "Quarterly Business Forum — March 2025", date: "Mar 15, 2025", readTime: "3 min read", author: "ECCI Admin", badge: "bg-purple-100 text-purple-800", desc: "Join fellow members for an evening of strategic networking, industry insights, and policy discussions with key government stakeholders." },
+  { slug: "nepal-festival-2025-records", category: "Event", title: "Nepal Festival 2025 Breaks Attendance Records", date: "Feb 25, 2025", readTime: "4 min read", author: "Priya Sharma", badge: "bg-success-bg text-success-text", desc: "The annual Nepal Festival drew record footfall with over 15,000 visitors, showcasing Nepal's rich cultural heritage and fostering trade opportunities among participating businesses." },
+  { slug: "trade-corridor-initiative", category: "Trade", title: "New Trade Corridor Initiative Launched", date: "Nov 15, 2024", readTime: "6 min read", author: "Rajesh Khanna", badge: "bg-warning-bg text-warning-text", desc: "ECCI unveils a strategic India-Nepal trade corridor initiative aimed at streamlining cross-border commerce, reducing transit times, and boosting bilateral trade volume significantly." },
+  { slug: "quarterly-business-forum", category: "Networking", title: "Quarterly Business Forum — March 2025", date: "Mar 15, 2025", readTime: "3 min read", author: "ECCI Admin", badge: "bg-info-bg text-info-text", desc: "Join fellow members for an evening of strategic networking, industry insights, and policy discussions with key government stakeholders." },
 ];
 
 const categories = [
@@ -26,7 +26,7 @@ export default function NewsPage() {
 
   return (
     <PublicLayout activeNav="none">
-      <div className="relative overflow-hidden bg-gradient-to-br from-navy via-[#0D1B2E] to-[#162D4A] pt-[88px] pb-12 text-white lg:pt-[100px]">
+      <div className="relative overflow-hidden bg-gradient-to-br from-navy via-navy-dark to-navy-deep-dark pt-[88px] pb-12 text-white lg:pt-[100px]">
         <div className="relative z-10 mx-auto max-w-[1200px] px-6">
           <div className="mb-4 flex items-center gap-2 text-sm text-gray-300">
             <Link href="/" className="text-crimson transition-colors hover:text-crimson-light">Home</Link>

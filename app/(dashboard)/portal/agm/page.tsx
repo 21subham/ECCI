@@ -41,7 +41,7 @@ export default function AGMPage() {
             <div className="mb-1 font-heading text-lg font-bold text-navy">Annual General Meeting 2026</div>
             <div className="text-sm text-gray-500">February 28, 2026 &middot; 10:00 AM &middot; ECCI Headquarters, New Delhi</div>
           </div>
-          <span className="inline-block rounded-full bg-[#C6F6D5] px-3 py-0.5 text-[11px] font-bold uppercase tracking-wider text-[#22543D]">
+          <span className="inline-block rounded-full bg-success-bg px-3 py-0.5 text-[11px] font-bold uppercase tracking-wider text-success-text">
             Upcoming
           </span>
         </div>
@@ -114,9 +114,9 @@ export default function AGMPage() {
             <div className="mb-1 font-heading text-lg font-bold text-navy">Board Meeting Minutes — Q4 2025</div>
             <div className="text-sm text-gray-500">December 20, 2025 &middot; ECCI Board Room, New Delhi</div>
           </div>
-          <span className="inline-block rounded-full bg-[#BEE3F8] px-3 py-0.5 text-[11px] font-bold uppercase tracking-wider text-[#2A4365]">
-            Published
-          </span>
+<span className="inline-block rounded-full bg-info-bg px-3 py-0.5 text-[11px] font-bold uppercase tracking-wider text-info-text">
+             Published
+           </span>
         </div>
         <div className="p-6">
           <p className="mb-4 text-sm text-gray-600" style={{ lineHeight: 1.7 }}>

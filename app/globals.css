@@ -7,6 +7,8 @@
   --color-crimson-light: #C41020;
   --color-navy: #11233B;
   --color-navy-light: #1A3355;
+  --color-navy-dark: #0D1B2E;
+  --color-navy-deep-dark: #162D4A;
   --color-ice-blue: #507D9A;
   --color-ice-blue-light: #6B9AB5;
   --color-ice-tint: #F4F8FA;
@@ -26,6 +28,25 @@
   /* Semantic aliases */
   --color-background: #FFFFFF;
   --color-foreground: #4A5568;
+
+  /* Status colors - success/active */
+  --color-success: #38A169;
+  --color-success-bg: #C6F6D5;
+  --color-success-text: #22543D;
+
+  /* Status colors - warning/pending */
+  --color-warning: #D69E2E;
+  --color-warning-bg: #FEFCBF;
+  --color-warning-text: #744210;
+
+  /* Status colors - error */
+  --color-error: #E53E3E;
+  --color-error-bg: #FED7D7;
+  --color-error-text: #9B2C2C;
+
+  /* Status colors - info */
+  --color-info-bg: #BEE3F8;
+  --color-info-text: #2A4365;
 
   /* Fonts */
   --font-heading: var(--font-cinzel), Georgia, 'Times New Roman', serif;

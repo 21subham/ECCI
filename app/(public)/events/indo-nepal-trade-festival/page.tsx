@@ -34,7 +34,7 @@ export default function EventDetailPage() {
 
   return (
     <PublicLayout activeNav="events">
-      <section ref={heroRef} className="relative min-h-[420px] overflow-hidden pt-[72px]" style={{ background: "linear-gradient(135deg, #11233B 0%, #0D1B2E 50%, #162D4A 100%)", backgroundImage: "url('https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1200&h=600&fit=crop')", backgroundSize: "cover", backgroundPosition: "center" }}>
+      <section ref={heroRef} className="relative min-h-[420px] overflow-hidden pt-[72px]" style={{ background: "linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-dark) 50%, var(--color-navy-deep-dark) 100%)", backgroundImage: "url('https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1200&h=600&fit=crop')", backgroundSize: "cover", backgroundPosition: "center" }}>
         <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/50 to-navy/30" />
         <div className="relative z-10 mx-auto max-w-[1200px] px-6 pb-12 pt-16">
           <div className="mb-4 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.15em] text-crimson-light">
@@ -178,7 +178,7 @@ export default function EventDetailPage() {
           <Reveal animation="fade-in">
             <div className="sticky top-20 bg-white border border-border-gray rounded-lg p-8 shadow-md">
               <div className="mb-6">
-                <span className="inline-block px-3.5 py-1 text-[11px] font-bold uppercase tracking-[0.08em] bg-[#C6F6D5] text-[#22543D] rounded-full">Registration Open</span>
+                <span className="inline-block px-3.5 py-1 text-[11px] font-bold uppercase tracking-[0.08em] bg-success-bg text-success-text rounded-full">Registration Open</span>
               </div>
               <div className="mb-5">
                 <div className="text-xs font-semibold uppercase tracking-[0.08em] text-gray-500 mb-1">Date &amp; Time</div>
