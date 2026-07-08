@@ -88,7 +88,7 @@ export default function NewsPage() {
                   <ul className="space-y-1">
                     {categories.map((c) => (
                       <li key={c.name}>
-                        <button onClick={() => setActiveCat(c.name)} className={`flex w-full items-center justify-between rounded-md px-3 py-2 text-sm transition-colors ${activeCat === c.name ? "bg-ice-tint text-crimson font-semibold" : "text-gray-600 hover:bg-gray-50"}`}>
+                        <button onClick={() => setActiveCat(c.name)} className={`flex w-full items-center justify-between rounded-md px-3 py-2 text-sm transition-colors ${activeCat === c.name ? "bg-ice-tint text-crimson font-semibold" : "text-navy hover:bg-gray-50"}`}>
                           <span>{c.name}</span>
                           <span className="rounded-full bg-gray-100 px-2 py-0.5 text-xs font-semibold text-gray-500">{c.count}</span>
                         </button>
@@ -109,7 +109,7 @@ export default function NewsPage() {
 
           <div className="mt-10 flex items-center justify-center gap-2">
             {[1, 2, 3].map((p) => (
-              <button key={p} className={`flex h-10 w-10 items-center justify-center rounded-md border text-sm font-semibold ${p === 1 ? "border-crimson bg-crimson text-white" : "border-border-gray bg-white text-gray-600 hover:border-navy hover:text-navy"}`}>{p}</button>
+              <button key={p} className={`flex h-10 w-10 items-center justify-center rounded-md border text-sm font-semibold ${p === 1 ? "border-crimson bg-crimson text-white" : "border-border-gray bg-white text-navy hover:border-navy hover:text-navy"}`}>{p}</button>
             ))}
           </div>
         </div>

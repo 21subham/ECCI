@@ -159,13 +159,13 @@ export default function NotificationsPage() {
             <button className="inline-flex h-9 min-w-9 items-center justify-center rounded-md bg-crimson px-2 text-sm font-medium text-white" aria-label="Page 1" aria-current="page">
               1
             </button>
-            <button className="inline-flex h-9 min-w-9 items-center justify-center rounded-md border border-border-gray bg-white px-2 text-sm font-medium text-gray-600 hover:border-gray-400" aria-label="Page 2">
+            <button className="inline-flex h-9 min-w-9 items-center justify-center rounded-md border border-border-gray bg-white px-2 text-sm font-medium text-navy hover:border-gray-400" aria-label="Page 2">
               2
             </button>
-            <button className="inline-flex h-9 min-w-9 items-center justify-center rounded-md border border-border-gray bg-white px-2 text-sm font-medium text-gray-600 hover:border-gray-400" aria-label="Page 3">
+            <button className="inline-flex h-9 min-w-9 items-center justify-center rounded-md border border-border-gray bg-white px-2 text-sm font-medium text-navy hover:border-gray-400" aria-label="Page 3">
               3
             </button>
-            <button className="inline-flex h-9 min-w-9 items-center justify-center rounded-md border border-border-gray bg-white px-2 text-sm font-medium text-gray-600 hover:border-gray-400" aria-label="Next page">
+            <button className="inline-flex h-9 min-w-9 items-center justify-center rounded-md border border-border-gray bg-white px-2 text-sm font-medium text-navy hover:border-gray-400" aria-label="Next page">
               &rarr;
             </button>
           </nav>

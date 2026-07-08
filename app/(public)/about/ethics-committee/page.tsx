@@ -101,7 +101,7 @@ export default function EthicsCommitteePage() {
               <div className="mt-1 font-heading text-lg text-white">ethics@everestchamber.com</div>
             </div>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/contact" className="rounded-md bg-white px-8 py-4 text-base font-semibold text-crimson transition-all hover:-translate-y-px hover:shadow-lg">Contact Us</Link>
+              <Link href="/contact" className="rounded-md bg-white px-8 py-4 text-base font-semibold text-navy transition-all hover:-translate-y-px hover:shadow-lg">Contact Us</Link>
               <Link href="/membership/apply" className="rounded-md border-2 border-white/40 bg-transparent px-8 py-4 text-base font-semibold text-white transition-all hover:-translate-y-px hover:bg-white hover:text-navy">Become a Member</Link>
             </div>
           </Reveal>

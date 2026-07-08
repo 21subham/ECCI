@@ -148,7 +148,7 @@ export function Header({ variant = "public", activeNav = "none" }: HeaderProps) 
             <>
               <Link
                 href="/login"
-                className="hidden rounded-md px-3 py-2 text-sm font-semibold text-gray-600 transition-colors hover:bg-gray-100 hover:text-navy md:inline-flex"
+                className="hidden rounded-md px-3 py-2 text-sm font-semibold text-navy transition-colors hover:bg-gray-100 hover:text-crimson md:inline-flex"
               >
                 Login
               </Link>
@@ -166,7 +166,7 @@ export function Header({ variant = "public", activeNav = "none" }: HeaderProps) 
               </span>
               <Link
                 href="/"
-                className="rounded-md px-3 py-2 text-xs font-semibold text-gray-600 transition-colors hover:bg-gray-100 hover:text-navy"
+                className="rounded-md px-3 py-2 text-xs font-semibold text-navy transition-colors hover:bg-gray-100 hover:text-crimson"
               >
                 Logout
               </Link>

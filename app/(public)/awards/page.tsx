@@ -53,7 +53,7 @@ export default function AwardsPage() {
                 className={`rounded-full px-5 py-2.5 text-sm font-semibold transition-all ${
                   activeFilter === f
                     ? "bg-crimson text-white"
-                    : "border border-border-gray bg-white text-gray-600 hover:border-ice-blue hover:text-navy"
+                    : "border border-border-gray bg-white text-navy hover:border-ice-blue hover:text-navy"
                 }`}
               >
                 {f}

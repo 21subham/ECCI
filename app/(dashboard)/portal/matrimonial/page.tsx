@@ -94,7 +94,7 @@ export default function MatrimonialPage() {
 
         <div className="mt-10 flex items-center justify-center gap-2">
           {[1, 2, 3, 4, 5].map((p) => (
-            <button key={p} className={`flex h-10 w-10 items-center justify-center rounded-md border text-sm font-semibold ${p === 1 ? "border-crimson bg-crimson text-white" : "border-border-gray bg-white text-gray-600 hover:border-navy hover:text-navy"}`}>{p}</button>
+            <button key={p} className={`flex h-10 w-10 items-center justify-center rounded-md border text-sm font-semibold ${p === 1 ? "border-crimson bg-crimson text-white" : "border-border-gray bg-white text-navy hover:border-navy hover:text-navy"}`}>{p}</button>
           ))}
         </div>
       </div>

@@ -66,7 +66,7 @@ export default function NewsDetailPage({ params }: { params: { slug: string } })
               <div className="mt-10 flex flex-wrap items-center gap-3">
                 <span className="text-sm font-semibold text-gray-500">Share:</span>
                 {["Facebook", "Twitter", "LinkedIn", "Email"].map((social) => (
-                  <button key={social} className="flex h-9 w-9 items-center justify-center rounded-full border border-border-gray text-gray-500 transition-colors hover:border-crimson hover:text-crimson" aria-label={social}>
+                  <button key={social} className="flex h-9 w-9 items-center justify-center rounded-full border border-border-gray text-navy transition-colors hover:border-crimson hover:text-crimson" aria-label={social}>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
                   </button>
                 ))}
@@ -99,7 +99,7 @@ export default function NewsDetailPage({ params }: { params: { slug: string } })
                       { name: "Event Highlights", count: 2 },
                     ].map((c) => (
                       <li key={c.name}>
-                        <button className="flex w-full items-center justify-between rounded-md px-3 py-2 text-sm text-gray-600 transition-colors hover:bg-gray-50">
+                        <button className="flex w-full items-center justify-between rounded-md px-3 py-2 text-sm text-navy transition-colors hover:bg-gray-50">
                           <span>{c.name}</span>
                           <span className="rounded-full bg-gray-100 px-2 py-0.5 text-xs font-semibold text-gray-500">{c.count}</span>
                         </button>

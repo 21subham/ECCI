@@ -224,7 +224,7 @@ export default function PartnersPage() {
           <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/contact"
-              className="rounded-md bg-white px-8 py-4 text-base font-semibold text-crimson transition-all hover:-translate-y-px hover:shadow-lg"
+              className="rounded-md bg-white px-8 py-4 text-base font-semibold text-navy transition-all hover:-translate-y-px hover:shadow-lg"
             >
               Contact Us
             </Link>

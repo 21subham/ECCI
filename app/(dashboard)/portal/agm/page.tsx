@@ -149,13 +149,13 @@ export default function AGMPage() {
         </span>
         <a
           href="#"
-          className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-border-gray text-sm font-medium text-gray-600 transition-all hover:border-gray-400"
+          className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-border-gray text-sm font-medium text-navy transition-all hover:border-gray-400"
         >
           2
         </a>
         <a
           href="#"
-          className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-border-gray text-sm font-medium text-gray-600 transition-all hover:border-gray-400"
+          className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-border-gray text-sm font-medium text-navy transition-all hover:border-gray-400"
         >
           3
         </a>

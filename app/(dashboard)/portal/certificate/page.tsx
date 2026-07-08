@@ -48,7 +48,7 @@ export default function CertificatePage() {
                   <div className="mt-1 font-semibold text-white">Jan 15, 2025</div>
                 </div>
               </div>
-              <button className="mt-6 rounded-md bg-white px-6 py-2.5 text-sm font-semibold text-crimson transition-colors hover:bg-gray-100">
+              <button className="mt-6 rounded-md bg-white px-6 py-2.5 text-sm font-semibold text-navy transition-colors hover:bg-gray-100">
                 Download PDF
               </button>
             </div>

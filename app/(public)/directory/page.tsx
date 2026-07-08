@@ -134,8 +134,8 @@ export default function DirectoryPage() {
               Prev
             </Link>
             <Link href="#" className="flex h-9 w-9 items-center justify-center rounded-md bg-crimson text-sm font-semibold text-white">1</Link>
-            <Link href="#" className="flex h-9 w-9 items-center justify-center rounded-md border border-border-gray bg-white text-sm font-medium text-gray-600">2</Link>
-            <Link href="#" className="flex h-9 w-9 items-center justify-center rounded-md border border-border-gray bg-white text-sm font-medium text-gray-600">3</Link>
+            <Link href="#" className="flex h-9 w-9 items-center justify-center rounded-md border border-border-gray bg-white text-sm font-medium text-navy">2</Link>
+            <Link href="#" className="flex h-9 w-9 items-center justify-center rounded-md border border-border-gray bg-white text-sm font-medium text-navy">3</Link>
             <Link href="#" className="flex items-center gap-1 rounded-md border border-border-gray bg-white px-4 py-2 text-sm font-medium text-navy">
               Next
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-3.5 w-3.5">

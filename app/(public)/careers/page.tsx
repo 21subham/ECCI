@@ -148,7 +148,7 @@ export default function CareersPage() {
           <div className="mx-auto max-w-[600px] rounded-xl border border-white/10 bg-white/5 p-8 text-center">
             <h3 className="mb-3 font-heading text-xl text-white">Have Questions?</h3>
             <p className="mb-4 text-sm text-gray-400">Reach out to our HR team for any queries about open positions or the application process.</p>
-            <Link href="mailto:careers@everestchamber.com" className="inline-flex items-center gap-2 rounded-md bg-white px-6 py-3 text-sm font-semibold text-crimson transition-all hover:-translate-y-px hover:shadow-lg">
+            <Link href="mailto:careers@everestchamber.com" className="inline-flex items-center gap-2 rounded-md bg-white px-6 py-3 text-sm font-semibold text-navy transition-all hover:-translate-y-px hover:shadow-lg">
               Contact HR
             </Link>
           </div>
